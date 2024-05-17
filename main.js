@@ -25,3 +25,8 @@ function handleEnterKey(event) {
         addTask();
     }
 }
+function clearTasks()
+{
+	let taskList = document.getElementById("taskList");
+	taskList.innerHTML = "";
+}
