@@ -2,7 +2,8 @@ function addTask() {
     let taskInput = document.getElementById("taskInput");
     let taskList = document.getElementById("taskList");
 
-    if (taskInput === '') {
+    if (taskInput === '\0') 
+	{
         alert("Please enter a task");
         return;
     }
