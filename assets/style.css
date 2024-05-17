@@ -47,9 +47,11 @@ li {
 }
 .clearButton
 {
-	width: 50%;
+	margin-top: 15px
+	width: 100%;
 	padding: 10px;
 	background-color:#87ceeb;
+	border-radius: 10px;
 }
 .clearButton:hover
 {
