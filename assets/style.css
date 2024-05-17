@@ -31,7 +31,7 @@ input[type="text"] {
     transition: background-color 0.3s
 }
 
-ul {
+ol {
     list-style-type: none;
     padding: 0;
 }
@@ -46,13 +46,13 @@ li {
     user-select: none;
 }
 
-ul li:nth-child(odd) ul li::before {
+ol li:nth-child(odd) ul li::before {
     content: '';
     position: absolute;
     border-style: solid;
 }
 
-ul li.checked {
+ol li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;

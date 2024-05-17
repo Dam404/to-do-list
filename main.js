@@ -19,7 +19,7 @@ function addTask() {
 }
 
 function handleEnterKey(event) {
-    if (event === "Enter") {
+    if (event.key === "Enter") {
         event.preventDefault();
         addTask();
     }
