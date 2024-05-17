@@ -1,6 +1,6 @@
 body {
     font-family: arial;
-    background-color: linear-gradient(from bottom, #8bc34a, #4caf50);
+    background-color: linear-gradient(to bottom, #8bc34a, #4caf50);
 }
 
 .h1 {
@@ -45,7 +45,16 @@ li {
     -ms-user-select: none;
     user-select: none;
 }
-
+.clearButton
+{
+	width: 50%;
+	padding: 10px;
+	background-color:#87ceeb;
+}
+.clearButton:hover
+{
+	background-color: #68b3c8;
+}
 ol li:nth-child(odd) ul li::before {
     content: '';
     position: absolute;
