@@ -1,6 +1,6 @@
 body {
     font-family: arial;
-    background-color: linear-gradient(to bottom, #8bc34a, #4caf50);
+    background: linear-gradient(to bottom, #8bc34a, #4caf50);
 }
 
 .h1 {
