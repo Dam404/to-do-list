@@ -1,0 +1,101 @@
+body {
+    font-family: arial;
+    background-color: coral
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input[type="text"] {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.button {
+    border-style: none;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: skyblue;
+    transition: background-color 0.3s
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) ul li::before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+.container {
+    max-width: 350px;
+    margin: 20px auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+
+    button {
+        width: auto;
+    }
+}
