@@ -2,13 +2,14 @@ function addTask() {
     let taskInput = document.getElementById("taskInput");
     let taskList = document.getElementById("taskList");
 
-    if (taskInput == '') {
+    if (taskInput === '') {
         alert("Please enter a task");
         return;
     }
-    let li = document.getElementById("li");
+    let li = document.createElement("li");
 
     li.textContent = taskInput.value;
+	taskList.appendChild(li);
 
     taskList.value = '';
 
