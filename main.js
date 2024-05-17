@@ -29,4 +29,6 @@ function clearTasks()
 {
 	let taskList = document.getElementById("taskList");
 	taskList.innerHTML = "";
+	let taskInput = document.getElementById("taskInput");
+	taskInput.value = "";
 }
