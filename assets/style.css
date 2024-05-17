@@ -31,7 +31,7 @@ input[type="text"] {
     transition: background-color 0.3s
 }
 
-ol {
+ul {
     list-style-type: none;
     padding: 0;
 }
